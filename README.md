@@ -15,7 +15,11 @@ Now initialize hygen using
 
 hygen init self
 
-Now install generator with prompt using npx hygen generator with-prompt --name 'module-controller-service'
+Now install generator with prompt using
+
+npx hygen generator with-prompt --name 'module-controller-service'
+
+
 Delete hello.ejs.t which is created by default.Now modify the auto generated prompt.js accordingly.
 Now create 3 files service.ejs.t,controller.ejs.t,module.ejs.t and code accordingly.
 
