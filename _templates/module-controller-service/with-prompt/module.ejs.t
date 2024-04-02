@@ -1,8 +1,13 @@
 ---
 to: src/<%= moduleName %>/<%= moduleName %>.module.ts
 ---
-
 // Module: <%= moduleName %>
-// Module code here
+import { Module } from '@nestjs/common';
+import { <%= controllerName %>Controller } from './<%= moduleName %>.controller';
+import { <%= serviceName %>Service } from './<%= moduleName %>.service';
 
----
+@Module({
+  controllers: [ <%= controllerName %>Controller ],
+  providers: [ <%= serviceName %>Service ],
+})
+export class <%= moduleName %>Module {}
