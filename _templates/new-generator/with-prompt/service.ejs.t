@@ -1,5 +1,5 @@
 ---
-to: src/<%= moduleName %>/<%= moduleName %>.service.ts
+to: srcnew/<%= moduleName %>/<%= moduleName %>.service.ts
 ---
 // Module: <%= moduleName %>
 // Service: <%= serviceName %>
@@ -12,4 +12,3 @@ export class <%= serviceName %>Service {
     return 'Hello World from <%= serviceName %>Service!';
   }
 }
-

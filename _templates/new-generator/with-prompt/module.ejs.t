@@ -1,5 +1,5 @@
 ---
-to: src/<%= moduleName %>/<%= moduleName %>.module.ts
+to: srcnew/<%= moduleName %>/<%= moduleName %>.module.ts
 ---
 // Module: <%= moduleName %>
 import { Module } from '@nestjs/common';

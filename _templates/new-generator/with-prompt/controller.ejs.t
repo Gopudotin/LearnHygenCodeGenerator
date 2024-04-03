@@ -1,5 +1,5 @@
 ---
-to: src/<%= moduleName %>/<%= moduleName %>.controller.ts
+to: srcnew/<%= moduleName %>/<%= moduleName %>.controller.ts
 ---
 // Module: <%= moduleName %>
 // Controller: <%= controllerName %>
