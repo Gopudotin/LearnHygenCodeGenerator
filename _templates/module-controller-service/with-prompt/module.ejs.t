@@ -7,7 +7,7 @@ import { <%= controllerName %>Controller } from './<%= moduleName %>.controller'
 import { <%= serviceName %>Service } from './<%= moduleName %>.service';
 
 @Module({
-  imports: [],
+  imports: [], // Empty imports array
   controllers: [ <%= controllerName %>Controller ],
   providers: [ <%= serviceName %>Service ],
 })
