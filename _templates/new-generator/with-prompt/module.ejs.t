@@ -1,13 +1,12 @@
 ---
 to: srcnew/<%= moduleName %>/<%= moduleName %>.module.ts
 ---
-// Module: <%= moduleName %>
 import { Module } from '@nestjs/common';
 import { <%= controllerName %>Controller } from './<%= moduleName %>.controller';
 import { <%= serviceName %>Service } from './<%= moduleName %>.service';
 
 @Module({
-  imports: [],
+  imports: [], // Leave imports empty for new modules
   controllers: [ <%= controllerName %>Controller ],
   providers: [ <%= serviceName %>Service ],
 })
