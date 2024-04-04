@@ -40,7 +40,4 @@ Now create controller.ejs.t,generateModule.js,module,ejs.t,prompt.js,service.ejs
 Now run the new generator using
 npx hygen new-generator with-prompt and give the names for module,controller and service.
 
-Now run the command    
-node updateAppModule.js
-
 This will add the newly created modules into the app module's imports array
