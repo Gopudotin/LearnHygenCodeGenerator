@@ -40,11 +40,7 @@ Now create controller.ejs.t,generateModule.js,module,ejs.t,prompt.js,service.ejs
 Now run the new generator using
 npx hygen new-generator with-prompt and give the names for module,controller and service.
 
-Now open the directory where this generateModule.js file is located,in my case it is
-Desktop/Hygen/HygenNew/_templates/new-generator/with-prompt .
-Now within that directory,run the js file with the module name that we created from new-generator.
-In this case i created test module from new-generator,so i am using the below command.
+Now run the command    
+node updateAppModule.js
 
-node generateModule.js test
-
-This will add the testModule into the app module's imports array
+This will add the newly created modules into the app module's imports array
